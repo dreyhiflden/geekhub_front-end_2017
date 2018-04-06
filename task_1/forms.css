@@ -1,0 +1,23 @@
+div {
+    margin-top: 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+p {
+    font-style: italic;
+}
+.submit {
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.title {
+    border: none;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+    width: 40%;
+}

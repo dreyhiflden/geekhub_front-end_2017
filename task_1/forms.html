@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link href="forms.css" rel="stylesheet">
+</head>
+<body>
+<div class="title">
+    <h1>Урок "Формы": теги и их атрибуты.</h1>
+    <br>
+    <h2>Раскажите немного о себе...</h2>
+    <div>
+        <h3>Коротко о себе</h3>
+        <form name="basic" action="" methot="post" >
+            Имя - <input type="text" name="firstname" value="Дима">
+            <br>
+            Фамилия - <input type="text" name="lastname" value="">
+            <br>
+            Пол -
+            <input type="radio" name="gender" value="1">Женский
+            <input type="radio" name="gender" value="2">Мужской
+
+            Возраст - <input type="text" name="age" value="25">
+        </form>
+    </div>
+    <div>
+        <h3>Подробнее о себе</h3>
+        <form name="complete" action="" methot="get">
+            <input type="radio" name="gender" value="1">Парень
+            <br>
+            <input type="radio" name="gender" value="2">Девушка
+            <br>
+            <input tupe="text" name="birthday" value="01.01.1986">Дата рождения
+            <br>
+            <input type="text" name="marital status" value="женат">Семейное положение
+            <br>
+            <input tupe="text" name="social status" value="рабочий">Социальный статус
+            <br>
+            <input type="text" name="location" value="Черкассы">Место жительства
+            <br>
+            <h4>Что вы обычно делаете на выходных:</h4>
+            <input type="checkbox" name="sleep" value="yes">сплю
+            <br>
+            <input type="checkbox" name="walk" value="yes">гуляю с друзьями
+            <br>
+            <input type="checkbox" name="fishing" value="yes">хожу на рыбалку
+            <br>
+            <input type="checkbox" name="play" value="yes">играю в игры
+            <br>
+            <h4>Расказать о формах в книге, посвященной HTML</h4>
+            <select name="book">
+                <option value="1">Site frequency1</option>
+                <option value="2">Site frequency2</option>
+                <option value="3">Site frequency3</option>
+            </select>
+            <h4>Сколько книг Вы прочитали за свою жизнь:</h4>
+            <input type="radio" name="books" value="1">0-10
+            <br>
+            <input type="radio" name="books" value="2">11-20
+            <br>
+            <input type="radio" name="books" value="3">21-50
+            <br>
+            <input type="radio" name="books" value="4">50+
+            <br>
+            Ваши коментарии:
+            <br>
+            <textarea name="resolution" rows="5"cols="30"></textarea>
+            <br>
+            <select name="position" size="3">
+                <option value="1">Первая позиция</option>
+                <option value="2">Вторая позиция</option>
+                <option value="3">Третья позиция</option>
+                <option value="4">Четвёртая позиция</option>
+            </select>
+        </form>
+    </div>
+    <div>
+        <h3>И в заключении:</h3>
+        <form name="finish" method="post">
+            <input type="text" name="blank" value="это поле заполнено">
+            <h4>Email:</h4>
+            <input type="text" name="Email" value="">
+            <h4>Хотите подписатся на самую модную рассылку спама?</h4>
+            <p>Выберите категорию</p>
+            <input type="checkbox" name="equipment" value="">Оборудование
+            <br>
+            <input type="checkbox" name="diner" value="">Как приготовить обед
+            <br>
+            <input type="checkbox" name="first-million" value="">Заработай милион за два дня
+            <h4>На сколько сложная задача?</h4>
+            <input type="radio" name="level" value="1">Совсем нет
+            <br>
+            <input type="radio" name="level" value="2">Так себе
+            <br>
+            <input type="radio" name="level" value="3">Еле справились
+        </form>
+    </div>
+    <div class="submit">
+        <form name="send_form" method="post">
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+</div>
+</body>
+</html>

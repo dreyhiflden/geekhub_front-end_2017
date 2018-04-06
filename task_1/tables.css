@@ -1,0 +1,33 @@
+table {
+    margin: 10px;
+}
+
+th {
+    border: solid 1px black;
+}
+
+td {
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.first {
+    border: solid 1px black;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.second {
+    border: solid 1px black;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.third {
+    border-collapse: collapse;
+    border: solid 2px black;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
