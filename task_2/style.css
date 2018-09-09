@@ -105,10 +105,16 @@ body {
     margin: -150px 0 90px 0;
 }
 
-.section-headline {
+.about-us-headline {
     font-size: 64px;
     padding: 75px 0 0 0;
     font-weight: lighter;
+}
+
+.section-headline {
+    font-size: 64px;
+    padding: 75px 0 0 0;
+    margin: 0 0 20px 0;
 }
 
 .section-description { /* TODO: придумать более специфический класс */
@@ -150,6 +156,7 @@ body {
 }
 
 .section-figures {
+    margin: 0 0 120px 0;
 }
 
 .figures {
@@ -159,4 +166,20 @@ body {
 .figures li {
     display: inline-block;
     width: 330px;
+}
+
+.section-recent-projects {
+    background: #27ae60;
+}
+
+.projects-img {
+    margin: 0 0 120px 0;
+}
+
+.section-minim {
+
+}
+
+.minim-items {
+
 }
