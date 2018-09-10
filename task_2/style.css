@@ -180,6 +180,13 @@ body {
 
 }
 
-.minim-items {
 
+
+.minim-items li {
+    float: left;
+    background: #fff;
+    border-radius: 20px;
+    display: inline-block;
+    width: 555px;
+    margin: 0 20px 0 0;
 }
