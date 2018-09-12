@@ -250,3 +250,7 @@ body {
     display: inline-block;
     width: 37px;
 }
+
+.footer-navigaton {
+    float: left;
+}
