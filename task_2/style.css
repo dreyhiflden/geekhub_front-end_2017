@@ -16,241 +16,252 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-    display: block;
+  display: block;
 }
+
 body {
-    line-height: 1;
+  line-height: 1;
 }
+
 ol, ul {
-    list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-    quotes: none;
+  quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: '';
-    content: none;
+  content: '';
+  content: none;
 }
+
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Clearfix */
 
 .clearfix:before,
 .clearfix:after {
-    content: "";
-    display: table;
+  content: "";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 .clearfix {
-    zoom: 1;
+  zoom: 1;
 }
 
 /* Custom styles */
 
 .wrapper {
-    width: 1170px;
-    margin: 0 auto;
+  width: 1170px;
+  margin: 0 auto;
 }
+
 body {
-    background: #ecf0f1;
-    text-align: center;
-    font-family: Arial, sans-serif;
+  background: #ecf0f1;
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 .white-text {
-    color: #fff;
+  color: #fff;
 }
+
 .header {
-    background: #3498db;
-    color: #fff;
-    height: 850px;
-    padding: 55px 0 0 0;
+  background: #3498db;
+  color: #fff;
+  height: 850px;
+  padding: 55px 0 0 0;
 }
+
 .header-headline {
-    padding: 320px 0 0 0;
-    font-weight: bold;
-    font-size: 72px;
+  padding: 320px 0 0 0;
+  font-weight: bold;
+  font-size: 72px;
 }
+
 .header-slogan {
-    padding: 45px 0 0 0;
-    font-weight: bold;
-    font-size: 64px;
+  padding: 45px 0 0 0;
+  font-weight: bold;
+  font-size: 64px;
 }
+
 .header-logo {
-    float: left;
+  float: left;
 }
+
 .js-header-menu { /* Префикс JS используем для обозначения взаимодействия класса с JS */
-    float: right;
+  float: right;
 }
 
 .section-about-us {
-    width: 1170px;
-    height: 580px; /* TODO: Убрать точную высоту. */
-    background: #fff;
-    border-radius: 5px;
-    margin: -150px 0 90px 0;
+  width: 1170px;
+  height: 580px; /* TODO: Убрать точную высоту. */
+  background: #fff;
+  border-radius: 5px;
+  margin: -150px 0 90px 0;
 }
 
 .about-us-headline {
-    font-size: 64px;
-    padding: 75px 0 0 0;
-    font-weight: lighter;
+  font-size: 64px;
+  padding: 75px 0 0 0;
+  font-weight: lighter;
 }
 
 .section-headline {
-    font-size: 40px;
-    padding: 75px 0 0 0;
-    margin: 0 0 20px 0;
-    text-transform: uppercase;
+  font-size: 40px;
+  padding: 75px 0 0 0;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
 }
 
 .section-description { /* TODO: придумать более специфический класс */
-    width: 750px;
-    margin: 0 auto 60px auto;
-    text-transform: uppercase;
-    font-size: 16px;
-    line-height: 32px;
+  width: 750px;
+  margin: 0 auto 60px auto;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 32px;
 }
 
 /* Фигура "Крестик" */
 .cross {
-    padding: 30px 0 30px 0;
+  padding: 30px 0 30px 0;
 }
 
 .btn {
-    display: inline-block;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    user-select: none;
-    text-align: center;
-    padding: 20px 55px;
-    white-space: nowrap;
-    border-radius: 40px;
-    -ms-user-select: none;
-    vertical-align: middle;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    border: 1px solid transparent;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  user-select: none;
+  text-align: center;
+  padding: 20px 55px;
+  white-space: nowrap;
+  border-radius: 40px;
+  -ms-user-select: none;
+  vertical-align: middle;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  border: 1px solid transparent;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .btn-read-more {
-    background: #3498db;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 16px;
+  background: #3498db;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 .section-figures {
-    margin: 0 0 120px 0;
+  margin: 0 0 120px 0;
 }
 
 .figures {
-    text-align: center;
+  text-align: center;
 }
 
 .figures li {
-    display: inline-block;
-    width: 330px;
+  display: inline-block;
+  width: 330px;
 }
 
 .section-recent-projects {
-    background: #27ae60;
+  background: #27ae60;
 }
 
 .projects-img {
-    margin: 0 0 120px 0;
+  margin: 0 0 120px 0;
 }
 
 .section-cards {
-    position: relative;
+  position: relative;
 }
 
 .section-cards:after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 270px;
-    background: #9b59b6;
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 270px;
+  background: #9b59b6;
 }
 
 /* Секция с картами */
 .cards {
-    margin: 100px 0 0 0;
+  margin: 100px 0 0 0;
 }
 
-
 .cards li {
-    float: left;
-    width: 555px;
-    position: relative;
-    background: #fff;
-    margin: 0 20px 0 0;
-    border-radius: 20px;
-    display: inline-block;
-    padding: 70px 0 70px 0;
-    z-index: 1;
+  float: left;
+  width: 555px;
+  position: relative;
+  background: #fff;
+  margin: 0 20px 0 0;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 70px 0 70px 0;
+  z-index: 1;
 }
 
 .cards-headline {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .cards-description {
-    margin: 0 0 65px 0;
+  margin: 0 0 65px 0;
 }
 
 .section-our-clients {
-    background: #9b59b6;
-    color: #fff;
+  background: #9b59b6;
+  color: #fff;
 }
 
 .client-list {
-    margin: 70px 0 0 0;
-    display: inline-block;
+  margin: 70px 0 110px 0;
+  display: inline-block;
 }
 
 .client-list li {
-    float: left;
-    padding: 0 20px 0 20px;
+  float: left;
+  padding: 0 20px 0 20px;
 }
 
 .team-list {
-    text-align: center;
+  text-align: center;
 }
 
 .team-list li {
-    display: inline-block;
-    width: 333px;
+  display: inline-block;
+  width: 333px;
 }
 
 .social-buttons li {
-    display: inline-block;
-    width: 37px;
+  display: inline-block;
+  width: 37px;
 }
 
 .footer-navigaton {
-    float: left;
+  float: left;
 }
