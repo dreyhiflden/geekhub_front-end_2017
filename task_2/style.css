@@ -248,6 +248,10 @@ body {
   padding: 0 20px 0 20px;
 }
 
+.section-our-team {
+  padding: 0 0 100px 0;
+}
+
 .team-list {
   text-align: center;
 }
@@ -259,9 +263,48 @@ body {
 
 .social-buttons li {
   display: inline-block;
+  padding: 0 5px 0 5px;
   width: 37px;
 }
 
-.footer-navigaton {
+.team-headline {
+font-size: 16px;
+font-weight: bold;
+padding: 20px 0;
+display: block;
+text-transform: uppercase;
+}
+
+.team-description {
+padding-top: 20px;
+}
+
+.social-buttons {
+padding-top: 20px;
+}
+
+.footer {
+  background: #2c3e50;
+  padding: 40px 0 40px 0;
+}
+
+.footer-nav {
+  float: right;
+  padding: 10px 0 0 0;
+}
+
+.footer-menu li {
   float: left;
+  padding: 0 25px 0 0;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.footer-logo {
+  float: left
 }
