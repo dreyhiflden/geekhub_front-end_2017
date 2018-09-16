@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!--[if lt IE 9]>
+<!--[if It IE 9]>
 <p class="browser-upgrade">
   You are using an <strong>outdated</strong> browser.
   Please <a href="http://browsehappy.com/">upgrade your browser</a>
@@ -19,35 +19,28 @@
 </noscript>
 <header class="header">
   <div class="wrapper clearfix">
-    <!-- Логотип -->
-    <h1 class="header-logo">
-      <a href="#" class="header-logo-link">
-        <img src="img/logo.png" alt="AION Logo" class="logo">
+    <h1 class="logo">
+      <a href="#">
+        <img src="img/logo.png" alt="AION Logo">
       </a>
     </h1>
-    <!-- Логотип конец -->
-    <!-- Кнопка меню (бургер) -->
-    <a href="#" class="js-header-menu"> <!-- Using prefix JS for denote fact
+    <a href="#" class="js-burger-btn"> <!-- Using prefix JS for denote fact
                 using JS with this menu button, more info here: https://bit.ly/2BcYmBB -->
       <img src="img/menu_button.png" alt="Open menu" class="header-menu-img">
     </a>
-    <!-- Кнопка меню (бургер) конец -->
   </div>
-  <!-- Заголовки шапки -->
   <h2 class="header-headline">HELLO!</h2>
   <p class="header-slogan">WE ARE CREATIVE AGENCY</p>
-  <!-- Заголовки шапки конец -->
 </header>
-<main class="main">
+<main class="main" role="main">
   <article class="article">
-    <!-- Секция About US -->
     <div class="wrapper">
-      <section class="section-about-us">
-        <h3 class="about-us-headline">ABOUT US</h3>
+      <section class="banner">
+        <h3 class="title">About Us</h3>
         <figure class="cross">
           <img src="img/cross.png" alt="Cross">
         </figure>
-        <p class="section-description">
+        <p class="subtitle">
           la pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
           mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
@@ -58,60 +51,54 @@
         </button>
       </section>
     </div>
-    <!-- Секция About US конец-->
-    <!-- Секция с фигурами -->
-    <section class="section-figures">
+    <section class="projects">
       <div class="wrapper clearfix">
-        <ul class="figures">
+        <ul class="project-pictures">
           <li>
             <figure>
               <img src="img/elips.png" alt="Picture of project">
-              <figcaption>Lorem Ipsum</figcaption>
+              <figcaption class="project-name">Lorem Ipsum</figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img src="img/elips.png" alt="Picture of project">
-              <figcaption>Lorem Ipsum</figcaption>
+              <figcaption class="project-name">Lorem Ipsum</figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img src="img/elips.png" alt="Picture of project">
-              <figcaption>Lorem Ipsum</figcaption>
+              <figcaption class="project-name">Lorem Ipsum</figcaption>
             </figure>
           </li>
         </ul>
       </div>
     </section>
-    <!--Секция с фигруами конец-->
-    <!--Секция с Recent projects-->
-    <section class="section-recent-projects">
+    <section class="recent-projects">
       <div class="wrapper">
-        <h3 class="section-headline white-text">
+        <h3 class="title white-text">
           Recent projects
         </h3>
-        <p class="section-description white-text">
+        <p class="subtitle white-text">
           eritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
           voluptas sit aspernatur aut odit aut
         </p>
       </div>
       <img src="img/browsers.png" alt="Browsers" class="projects-img">
     </section>
-    <!--Секция с Recent projects конец-->
-    <!--Секция с Cards-->
-    <section class="section-cards">
+    <section class="cards">
       <div class="wrapper">
-        <h3 class="section-headline">
+        <h3 class="title">
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
         </h3>
-        <ul class="cards clearfix">
+        <ul class="cards-list clearfix">
           <li>
             <h5 class="cards-headline">Quodsi fabulas</h5>
             <figure class="cross">
               <img src="img/cross.png" alt="Cross">
             </figure>
-            <p class="cards-description">
+            <p>
               la pariatur. Excepteur sint occaecat cupidatat<br>
               non proident, sunt in culpa qui officia<br>
               deserunt mollit anim id est laborum. Sed ut<br>
@@ -126,7 +113,7 @@
             <figure class="cross">
               <img src="img/cross.png" alt="Cross">
             </figure>
-            <p class="cards-description">
+            <p>
               la pariatur. Excepteur sint occaecat cupidatat<br>
               non proident, sunt in culpa qui officia<br>
               deserunt mollit anim id est laborum. Sed ut<br>
@@ -139,11 +126,9 @@
         </ul>
       </div>
     </section>
-    <!--Секция с Cards конец -->
-    <!--Секция Our clients-->
-    <section class="section-our-clients">
+    <section class="our-clients">
       <div class="wrapper">
-        <h3 class="section-headline">
+        <h3 class="title white-text">
           Our clients
         </h3>
         <ul class="client-list clearfix">
@@ -154,22 +139,21 @@
         </ul>
       </div>
     </section>
-    <!--Секция Our clients конец-->
-    <!--Секция Our team-->
-    <section class="section-our-team clearfix">
+    <section class="our-team clearfix">
       <div class="wrapper">
-        <h3 class="section-headline">
+        <h3 class="title">
           Our team
         </h3>
-        <p class="section-description">
+        <p class="subtitle">
           eritatis et quasi architecto beatae vitae dicta sunt explicabo.<br>
           Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
         </p>
         <ul class="team-list">
           <li>
             <figure>
-              <img src="img/elips.png" alt="Picture of project">
-              <figcaption class="team-description"><span class="team-headline">Lorem Ipsum</span>
+              <img src="img/elips.png" alt="Picture of team member">
+              <figcaption class="team-description">
+                <span class="name">Lorem Ipsum</span>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                 </p>
@@ -189,8 +173,9 @@
           </li>
           <li>
             <figure>
-              <img src="img/elips.png" alt="Picture of project">
-              <figcaption class="team-description"><span class="team-headline">Lorem Ipsum</span>
+              <img src="img/elips.png" alt="Picture of team member">
+              <figcaption class="team-description">
+                <span class="name">Lorem Ipsum</span>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                 </p>
@@ -210,8 +195,9 @@
           </li>
           <li>
             <figure>
-              <img src="img/elips.png" alt="Picture of project">
-              <figcaption  class="team-description"><span class="team-headline">Lorem Ipsum</span>
+              <img src="img/elips.png" alt="Picture of team member">
+              <figcaption class="team-description">
+                <span class="name">Lorem Ipsum</span>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                 </p>
@@ -232,13 +218,12 @@
         </ul>
       </div>
     </section>
-    <!--Секция Our team конец-->
   </article>
 </main>
 <footer class="footer clearfix">
   <div class="wrapper">
-    <img class="footer-logo" src="img/logo.png" alt="Logo">
-    <nav class="footer-nav">
+    <img class="logo" src="img/logo.png" alt="Logo">
+    <nav class="footer-nav" role="navigation">
       <ul class="footer-menu">
         <li><a href="#">Home</a></li>
         <li><a href="#">Services</a></li>

@@ -53,8 +53,6 @@ table {
   border-spacing: 0;
 }
 
-/* Clearfix */
-
 .clearfix:before,
 .clearfix:after {
   content: "";
@@ -69,8 +67,6 @@ table {
   zoom: 1;
 }
 
-/* Custom styles */
-
 .wrapper {
   width: 1170px;
   margin: 0 auto;
@@ -82,8 +78,17 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* Helpers */
 .white-text {
   color: #fff;
+}
+
+.inline-list {
+
+}
+
+.inline-list li {
+  display: inline-block;
 }
 
 .header {
@@ -105,36 +110,36 @@ body {
   font-size: 64px;
 }
 
-.header-logo {
+.header .logo,
+.footer .logo {
   float: left;
 }
 
-.js-header-menu { /* Префикс JS используем для обозначения взаимодействия класса с JS */
+.js-burger-btn { /* Префикс JS используем для обозначения взаимодействия класса с JS */
   float: right;
 }
 
-.section-about-us {
+.banner {
   width: 1170px;
-  height: 580px; /* TODO: Убрать точную высоту. */
   background: #fff;
+  padding: 0 0 80px 0;
   border-radius: 5px;
   margin: -150px 0 90px 0;
 }
 
-.about-us-headline {
+.banner h3 {
   font-size: 64px;
-  padding: 75px 0 0 0;
   font-weight: lighter;
 }
 
-.section-headline {
+.title {
   font-size: 40px;
   padding: 75px 0 0 0;
   margin: 0 0 20px 0;
   text-transform: uppercase;
 }
 
-.section-description { /* TODO: придумать более специфический класс */
+.subtitle {
   width: 750px;
   margin: 0 auto 60px auto;
   text-transform: uppercase;
@@ -142,7 +147,6 @@ body {
   line-height: 32px;
 }
 
-/* Фигура "Крестик" */
 .cross {
   padding: 30px 0 30px 0;
 }
@@ -172,20 +176,27 @@ body {
   font-size: 16px;
 }
 
-.section-figures {
+.projects {
   margin: 0 0 120px 0;
 }
 
-.figures {
+.project-pictures {
   text-align: center;
 }
 
-.figures li {
+.project-pictures li {
   display: inline-block;
   width: 330px;
 }
 
-.section-recent-projects {
+.project-name {
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 20px 0 0 0;
+}
+
+.recent-projects {
   background: #27ae60;
 }
 
@@ -193,11 +204,11 @@ body {
   margin: 0 0 120px 0;
 }
 
-.section-cards {
+.cards {
   position: relative;
 }
 
-.section-cards:after {
+.cards:after {
   content: '';
   display: block;
   position: absolute;
@@ -208,12 +219,11 @@ body {
   background: #9b59b6;
 }
 
-/* Секция с картами */
-.cards {
+.cards-list {
   margin: 100px 0 0 0;
 }
 
-.cards li {
+.cards-list li {
   float: left;
   width: 555px;
   position: relative;
@@ -225,17 +235,16 @@ body {
   z-index: 1;
 }
 
+.cards-list p {
+  margin: 0 0 65px 0;
+}
+
 .cards-headline {
   font-size: 40px;
 }
 
-.cards-description {
-  margin: 0 0 65px 0;
-}
-
-.section-our-clients {
+.our-clients {
   background: #9b59b6;
-  color: #fff;
 }
 
 .client-list {
@@ -248,7 +257,7 @@ body {
   padding: 0 20px 0 20px;
 }
 
-.section-our-team {
+.our-team {
   padding: 0 0 100px 0;
 }
 
@@ -267,20 +276,20 @@ body {
   width: 37px;
 }
 
-.team-headline {
-font-size: 16px;
-font-weight: bold;
-padding: 20px 0;
-display: block;
-text-transform: uppercase;
+.name {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px 0;
+  display: block;
+  text-transform: uppercase;
 }
 
 .team-description {
-padding-top: 20px;
+  padding-top: 20px;
 }
 
 .social-buttons {
-padding-top: 20px;
+  padding-top: 20px;
 }
 
 .footer {
@@ -300,11 +309,7 @@ padding-top: 20px;
 
 .footer-menu a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #fff;
   text-transform: uppercase;
   font-size: 18px;
-}
-
-.footer-logo {
-  float: left
 }
