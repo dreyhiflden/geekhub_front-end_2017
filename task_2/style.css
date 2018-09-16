@@ -83,13 +83,11 @@ body {
   color: #fff;
 }
 
-.inline-list {
-
-}
-
 .inline-list li {
   display: inline-block;
 }
+
+/* Main styles */
 
 .header {
   background: #3498db;
@@ -180,12 +178,11 @@ body {
   margin: 0 0 120px 0;
 }
 
-.project-pictures {
+.projects-list {
   text-align: center;
 }
 
-.project-pictures li {
-  display: inline-block;
+.projects-list li {
   width: 330px;
 }
 
@@ -216,6 +213,10 @@ body {
   bottom: 0;
   width: 100%;
   height: 270px;
+}
+
+.cards:after,
+.our-clients {
   background: #9b59b6;
 }
 
@@ -230,7 +231,6 @@ body {
   background: #fff;
   margin: 0 20px 0 0;
   border-radius: 20px;
-  display: inline-block;
   padding: 70px 0 70px 0;
   z-index: 1;
 }
@@ -243,18 +243,12 @@ body {
   font-size: 40px;
 }
 
-.our-clients {
-  background: #9b59b6;
-}
-
-.client-list {
+.clients-list {
   margin: 70px 0 110px 0;
-  display: inline-block;
 }
 
-.client-list li {
-  float: left;
-  padding: 0 20px 0 20px;
+.clients-list li {
+  padding: 0 40px 0 40px;
 }
 
 .our-team {
@@ -266,12 +260,10 @@ body {
 }
 
 .team-list li {
-  display: inline-block;
   width: 333px;
 }
 
-.social-buttons li {
-  display: inline-block;
+.social-btns-list li {
   padding: 0 5px 0 5px;
   width: 37px;
 }
@@ -288,7 +280,7 @@ body {
   padding-top: 20px;
 }
 
-.social-buttons {
+.social-btns-list {
   padding-top: 20px;
 }
 
