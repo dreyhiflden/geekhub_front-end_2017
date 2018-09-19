@@ -87,6 +87,11 @@ body {
   display: inline-block;
 }
 
+.round {
+  border-radius: 50%;
+  height: 225px;
+  width: 225px;
+}
 /* Main styles */
 
 .header {
